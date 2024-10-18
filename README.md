@@ -1,5 +1,4 @@
 Activity 18: Research HTML
-
 Overview of HTML
 
 HTML (HyperText Markup Language) is the foundational language used to create webpages and web applications. It is responsible for structuring content on the web, such as text, images, links, and multimedia, by using a system of tags. These tags form the building blocks of HTML documents and determine how elements are displayed in a browser.
