@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section>
+        <h2 id="about">About This Page</h2>
+        <p>This is a basic HTML page to showcase the structure and elements used in a webpage.</p>
+        <img src="images/levi-ackerman-roses-black-desktop-wallpaper-cover.jpg" alt="Sample Image">
+
+        <h2 id="contact">Contact Information</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2 id="blog">Latest Blog Post</h2>
+        <p>This section will display the latest blog post in the future!</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
